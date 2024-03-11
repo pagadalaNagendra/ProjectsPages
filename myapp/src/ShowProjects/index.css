@@ -1,0 +1,23 @@
+.show-projects-body{
+    min-height: 100vh;
+    background-color: #020026;
+    color: aliceblue;
+    padding: 30px;
+}
+.team-cards-body{
+    height: 100%;
+    display: flex;
+    align-items: center;   
+    flex-wrap: wrap;
+    padding: 10vh 5vw;
+}
+.projects-page-body{
+    padding: 30px;
+}
+.back-button{
+    padding: 5px 20px;
+    height: 30px;
+    width: 100px;
+    margin: 0;
+    border-radius: 0 10px 0 10px;
+}

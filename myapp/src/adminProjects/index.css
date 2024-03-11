@@ -1,0 +1,50 @@
+.admin-projects-body {
+  height: 100vh;
+  background-color: #080c2c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-projects-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #d1d9db;
+  color: #080c2c;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+}
+.label {
+  margin: 10px 0 5px 0;
+}
+.projectName,
+.projectDescription {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0.5px solid #0f0f0f;
+  outline: none;
+}
+.checkboxes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.assign {
+  border: 0;
+  background-color: #48c043;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.error-msg{
+  color: #bd2a20;
+}
